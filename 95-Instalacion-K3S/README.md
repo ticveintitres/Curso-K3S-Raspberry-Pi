@@ -1,6 +1,6 @@
 95 - Instalación de K3S en Raspberry Pi 5
 
-En el siguiente video explico como instalar K3S sobre Raspberry Pi 5, tanto en modo Standalone como en modo Cluster, ambas opciones se instalan sin CNI, sin LoadBalancer y sin NetworkPolicy, para posteriormente instalar el CNI Cilium ( o el que mas os guste): 
+En el siguiente video explico como instalar K3S sobre Raspberry Pi 5, tanto en modo Standalone como en modo Cluster, ambas opciones se instalan sin CNI, sin LoadBalancer y sin NetworkPolicy, para posteriormente instalar el CNI Cilium ( o el que mas os guste): https://youtu.be/gAjsqaTF0oE
 
 Revisaros el Video en Youtube , además os dejo el código usado: 
 
