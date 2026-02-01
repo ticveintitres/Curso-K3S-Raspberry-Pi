@@ -1,7 +1,7 @@
 apiVersion: "cilium.io/v2alpha1"
 kind: CiliumL2AnnouncementPolicy
 metadata:
-  name: politia-l2
+  name: politica-l2
 spec:
   interfaces:
   - ens192

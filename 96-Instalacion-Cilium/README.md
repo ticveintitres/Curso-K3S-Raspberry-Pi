@@ -1,6 +1,6 @@
 95 - Instalación de Cilium en Raspberry Pi 5
 
-En el siguiente video explico como instalar Cilium en K3S sobre Raspberry Pi 5, tanto en modo Standalone como en modo Cluster: 
+En el siguiente video explico como instalar Cilium en K3S sobre Raspberry Pi 5, tanto en modo Standalone como en modo Cluster: https://youtu.be/LpTxSG3U7Fo
 
 Revisaros el Video en Youtube , además os dejo el código usado: 
 
@@ -41,7 +41,7 @@ cilium hubble enable --ui
 AÑADIR EL LOADBALANCER, IPAM
 
 ```
-cilium upgrade --set l2announcements.enabled=true --set externalIPs.enabled=true --set kubeProxyReplacement=false
+cilium upgrade --set l2announcements.enabled=true --set externalIPs.enabled=true
 ```
 
 PRUEBA DE USO
