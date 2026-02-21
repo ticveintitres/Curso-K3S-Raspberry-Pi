@@ -1,6 +1,6 @@
 97 - Cilium GateWay API en Raspberry Pi 5
 
-En el siguiente video explico como configurar el Gateway API de Cilium en K3S sobre Raspberry Pi 5, tanto en modo Standalone como en modo Cluster: 
+En el siguiente video explico como configurar el Gateway API de Cilium en K3S sobre Raspberry Pi 5, tanto en modo Standalone como en modo Cluster: https://youtu.be/evek2V-ZLq0
 
 Revisaros el Video en Youtube , además os dejo el código usado: 
 
