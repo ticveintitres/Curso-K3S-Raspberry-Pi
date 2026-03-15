@@ -1,4 +1,10 @@
 server:
+  persistentVolume:
+    enabled: true
+    storageClassName: local-path
+    accessModes:
+      - ReadWriteOnce
+    size: 20Gi
   service:
     type: LoadBalancer
     servicePort: 8428

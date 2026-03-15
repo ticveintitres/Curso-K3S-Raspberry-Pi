@@ -30,6 +30,12 @@ Instalacion de Victoria Metrics usando el values.yaml modificado:
 helm install vmagent vm/victoria-metrics-agent -n monitoring -f values-victoria.yaml
 ```
 
+Los ID de los DASHBOARD para Grafana son los siguientes:
+
+- 1860
+- 315
+- 10229
+
 El resto de la explicación podéis verla en el video.
 
 Fácil y sencillo, más en mi canal 👍
