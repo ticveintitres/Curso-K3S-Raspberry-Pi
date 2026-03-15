@@ -26,8 +26,15 @@ Para la instalación seguiremos los pasos de la documentacion oficial usando HEL
 
 Instalacion de Victoria Metrics usando el values.yaml modificado:
 
+Añadir los repositorios
+
 ```
-helm install vmagent vm/victoria-metrics-agent -n monitoring -f values-victoria.yaml
+helm repo add vm https://victoriametrics.github.io/helm-charts/
+helm repo update
+```
+
+```
+helm install victoria-tic23 vm/victoria-metrics-single -n monitoring -f values-victoria.yaml
 ```
 
 Los ID de los DASHBOARD para Grafana son los siguientes:
