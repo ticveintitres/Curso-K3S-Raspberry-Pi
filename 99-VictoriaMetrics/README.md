@@ -33,6 +33,8 @@ helm repo add vm https://victoriametrics.github.io/helm-charts/
 helm repo update
 ```
 
+Instalar Victoria Metrics
+
 ```
 helm install victoria-tic23 vm/victoria-metrics-single -n monitoring -f values-victoria.yaml
 ```
