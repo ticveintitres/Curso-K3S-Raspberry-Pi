@@ -1,4 +1,4 @@
-99 - Victoria Metrics
+99 - Victoria Metrics Basics
 
 En el siguiente video explico como configurar una instalación simple de Victoria Metrics para nuestro cluster de k3s : 
 
