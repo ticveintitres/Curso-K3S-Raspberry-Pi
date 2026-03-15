@@ -1,6 +1,6 @@
 99 - Victoria Metrics Basics
 
-En el siguiente video explico como configurar una instalación simple de Victoria Metrics para nuestro cluster de k3s : 
+En el siguiente video explico como configurar una instalación simple de Victoria Metrics para nuestro cluster de k3s : https://youtu.be/3KVf24iHGC8
 
 Revisaros el Video en Youtube , además os dejo el código usado: 
 
