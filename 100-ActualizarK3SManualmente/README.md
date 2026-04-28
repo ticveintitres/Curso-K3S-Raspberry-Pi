@@ -8,8 +8,6 @@ Os dejo las instrucciones:
 
 EN EL CONTROLPLANE
 
-Para ello os he dejado el values.yaml oficial modificado para que nos permite usar una IP por LoadBalancer dada por Cilium.
-
 Realizar un Backup de ETCD:
 
 ```
