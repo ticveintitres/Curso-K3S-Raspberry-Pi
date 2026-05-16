@@ -1,0 +1,45 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: n8n-ingress
+  namespace: ia-pi
+spec:
+  ingressClassName: "cilium"
+  tls:
+    - hosts:
+        - n8n.ticveintitres.local
+      secretName: n8n-tls-secret
+  rules:
+    - host: n8n.ticveintitres.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: n8n
+                port:
+                  number: 5678
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: webui-ingress
+  namespace: ia-pi
+spec:
+  ingressClassName: "cilium"
+  tls:
+    - hosts:
+        - webui.ticveintitres.local
+      secretName: webui-tls-secret
+  rules:
+    - host: webui.ticveintitres.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: webui
+                port:
+                  number: 80
